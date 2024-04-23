@@ -143,3 +143,16 @@
     >
     > const sum: Sum = (a, b) => a + b;
     > ```
+
+### Git
+
+17. What is Git, and why is it important for developers?
+    > Git é um sistema de controle de versão distribuído. Permite o controle de versão de arquivos e projetos. Permite o trabalho colaborativo entre desenvolvedores.
+18. Explain the difference between git commit and git push.
+    > `git commit` é utilizado para salvar as alterações no repositório local. `git push` é utilizado para enviar as alterações para o repositório remoto.
+19. What is a branch in Git, and how do you create one?
+    > Branch é uma ramificação do projeto. Permite o desenvolvimento de funcionalidades sem afetar o projeto principal.
+20. How do you resolve a merge conflict in Git?
+    > É necessário abrir o arquivo que está em conflito e resolver as diferenças. Após isso, é necessário adicionar o arquivo ao stage e realizar o commit.
+21. Describe the purpose of the .gitignore file.
+    > É utilizado para definir quais arquivos e pastas devem ser ignorados pelo git. Ex: arquivos temporários, arquivos de configuração, arquivos de build, etc.
