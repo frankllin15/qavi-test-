@@ -3,7 +3,7 @@
 ### HTML
 
 1. Define HTML and its role in web development.
-   É uma linguagem de marcação de texto. Utilizado para definir a estrutura da página. Nela é possível definir títulos, parágrafos, links listas, divisões, tabelas, campos de input, entre outros.
+   > É uma linguagem de marcação de texto. Utilizado para definir a estrutura da página. Nela é possível definir títulos, parágrafos, links listas, divisões, tabelas, campos de input, entre outros.
 2. Explain the structure of an HTML document.
    O documento HTML possue 3 divisões basicas:
    > - doctype: Deve ser a primeira linha do arquivo que indica que o tipo do arquivo é HTML `<!DOCTYPE html>`
@@ -156,3 +156,26 @@
     > É necessário abrir o arquivo que está em conflito e resolver as diferenças. Após isso, é necessário adicionar o arquivo ao stage e realizar o commit.
 21. Describe the purpose of the .gitignore file.
     > É utilizado para definir quais arquivos e pastas devem ser ignorados pelo git. Ex: arquivos temporários, arquivos de configuração, arquivos de build, etc.
+
+### Part 2: Understanding the T3 Stack
+
+1. Explain the T3 Stack and list its core technologies.
+   > T3 Stack é um conjunto de tecnologias que são utilizadas para desenvolvimento de aplicações web. As tecnologias principais são:
+   >
+   > - TypeScript
+   > - Tailwind CSS
+   > - tRPC
+   > - Prisma
+   > - Next.js
+2. Describe the role of TypeScript in the T3 Stack.
+   > TypeScript é a linguagem principal do T3 Stack. Oferece a definição de tipos estáticos, o que ajuda a evitar erros em tempo de execução. A utilização de TypeScript não é opcional no T3 Stack.
+3. How does Next.js fit into the T3 Stack, and what features does it bring to React
+   development?
+   > Next.js é um framework de React. Ele oferece funcionalidades como SSR (Server Side Rendering), SSG (Static Site Generation), API Routes, entre outros. É a base do T3 Stack.
+4. What is Tailwind CSS and how does it differ from traditional CSS frameworks?
+   > Tailwind CSS é um framework de CSS. Diferente de outros frameworks, ele não oferece componentes prontos. Ele oferece classes utilitárias que podem ser utilizadas para estilizar os elementos HTML.
+5. Explain Prisma and its role in database management within the T3 Stack.
+   > Prisma é um ORM (Object Relational Mapping) para Node.js e TypeScript. Ele permite a definição de modelos de dados e a interação com o banco de dados de forma mais simples. Ele é utilizado para gerar as queries SQL de forma automática.
+6. Define tRPC and its importance in building typesafe APIs in a T3 Stack
+   application.
+   > tRPC é uma biblioteca que permite a criação de APIs de forma tipada. Ele gera os tipos de dados automaticamente a partir das definições de rotas. Isso ajuda a evitar erros em tempo de execução.
