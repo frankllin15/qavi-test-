@@ -7,11 +7,20 @@ export const Header = () => {
   const { data: sessionData } = useSession();
 
   return (
-    <header className="w-full border-b ">
+    <header className="w-full border-b bg-neutral-950">
       <div className="w-full  flex justify-between items-center py-4 lg:max-w-xl mx-auto ">
-        <h1 className="text-white text-xl font-semibold">
-          App Notes
-        </h1>
+        <div className="flex gap-2 items-center">
+          <Image
+            src="/logo.png"
+            width={100}
+            height={108}
+            alt="Logo do App Notes"
+            className="invert brightness-0 w-8"
+          />
+          <h1 className="text-white text-xl font-semibold">
+            App Notes
+          </h1>
+        </div>
         <nav>
           <ul className="flex gap-4">
             <li>
@@ -21,7 +30,7 @@ export const Header = () => {
                     <DropdownMenuTrigger asChild>
                       <Button
                         variant="outline"
-                        className="overflow-hidden rounded-full flex items-center gap-2"
+                        className="overflow-hidden rounded-full flex items-center gap-2 pr-1"
                       >
                         Olá, {sessionData.user?.name?.split(" ")[0]}
                         <Image
