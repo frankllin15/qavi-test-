@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { Input } from "../ui/input";
 import { addNoteFormSchema, type AddNoteFormValues } from "./add-note-form-schema";
 import { useToast } from "../ui/use-toast";
+import { Textarea } from "../ui/textarea";
 
 
 export const AddNote = () => {
@@ -68,7 +69,7 @@ export const AddNote = () => {
                   Conteúdo
                 </FormLabel>
                 <FormControl>
-                  <Input placeholder="Conteúdo da nota"
+                  <Textarea placeholder="Conteúdo da nota"
                     {...field} />
                 </FormControl>
                 <FormMessage />

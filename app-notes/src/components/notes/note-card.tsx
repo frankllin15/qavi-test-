@@ -30,7 +30,8 @@ export const NoteCard = ({ note }: NoteCardProps) => {
           <DeleteNoteDialog note={note} />
         </div>
       </div>
-      <p className="text-white">{note.content}</p>
+      <hr className="border-gray-600" />
+      <pre className="text-white">{note.content}</pre>
     </div>
   )
 }
