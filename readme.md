@@ -17,6 +17,12 @@ A aplicação deve permitir o cadastro, edição e exclusão de anotações.
 
 ## Preparação
 
+Acesse o diretório do projeto
+
+```bash
+cd app-notes
+```
+
 ### Intalação de dependências
 
 ```bash
