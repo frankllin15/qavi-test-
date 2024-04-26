@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <header className="w-full border-b bg-neutral-950">
-      <div className="w-full  flex justify-between items-center py-4 lg:max-w-xl mx-auto ">
+      <div className="w-full  flex justify-between items-center py-4 lg:max-w-xl mx-auto px-3 md:px-12 lg:px-0">
         <div className="flex gap-2 items-center">
           <Image
             src="/logo.png"

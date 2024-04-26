@@ -11,7 +11,7 @@ import { api } from "~/utils/api";
 export default function PageHome() {
 
   return (
-    <div className="min-h-screen bg-neutral-900 px-3 md:px-12 lg:px-0">
+    <div className="min-h-screen bg-neutral-900 ">
       <PageHead />
       <Header />
       <PageContent />
@@ -36,7 +36,7 @@ const PageContent = () => {
 
   return (
     <div
-      className="w-full mx-auto lg:max-w-xl mt-12 pb-12"
+      className="w-full mx-auto lg:max-w-xl mt-12 pb-12 px-3 md:px-12 lg:px-0"
     >
 
       {
