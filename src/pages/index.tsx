@@ -82,7 +82,7 @@ const PageContent = () => {
           </div>
         ) : (
           <div className="h-full flex flex-col justify-center items-center gap-4 py-16">
-            <h2 className="text-white text-5xl mb-12">
+            <h2 className="text-white text-5xl mb-12 text-center">
               Bem-vindo ao App Notes
             </h2>
             <p className="text-white text-lg text-center">
